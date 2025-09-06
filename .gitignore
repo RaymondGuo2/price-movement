@@ -1,0 +1,70 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual Environments ---
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Logs & Debug ---
+*.log
+*.out
+*.err
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- Data Files ---
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.db
+*.sqlite
+*.pkl
+*.joblib
+
+# --- ML/Experiment Artifacts ---
+models/
+checkpoints/
+outputs/
+runs/
+mlruns/
+wandb/
+
+# --- Airflow ---
+airflow/logs/
+airflow/__pycache__/
+airflow/*.pid
+
+# --- Cache ---
+*.cache
+.cache/
+__pycache__/
+
+# --- Build & Packaging ---
+build/
+dist/
+*.egg
+*.whl
+*.tar.gz
