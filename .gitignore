@@ -68,3 +68,8 @@ dist/
 *.egg
 *.whl
 *.tar.gz
+
+# --- Environment Files ---
+.env
+.venv/
+env/
